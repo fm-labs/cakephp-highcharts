@@ -1,0 +1,22 @@
+{
+    "name": "fm-labs/cakephp-highcharts",
+    "description": "Highcharts plugin for CakePHP",
+    "type": "cakephp-plugin",
+    "require": {
+        "php": ">=5.5.9",
+        "cakephp/cakephp": ">=3.3.2 <4.0.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Highcharts\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Highcharts\\Test\\": "tests",
+            "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
+        }
+    }
+}
