@@ -24,6 +24,6 @@ class HighchartsHelper extends Helper
      */
     public function initialize(array $config)
     {
-        $this->Html->script($this->config('scriptUrl'), ['block' => $this->config('block')]);
+        $this->Html->script($this->getConfig('scriptUrl'), ['block' => $this->getConfig('block')]);
     }
 }
