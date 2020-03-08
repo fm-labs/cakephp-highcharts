@@ -14,7 +14,7 @@ class HighchartsHelper extends Helper
     protected $_defaultConfig = [
         //'scriptUrl' => '//code.highcharts.com/highcharts.js',
         'scriptUrl' => '/highcharts/lib/highcharts/6.1.1/highcharts.js',
-        'block' => true
+        'block' => true,
     ];
 
     public $helpers = ['Html'];
