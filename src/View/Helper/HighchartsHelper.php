@@ -22,7 +22,7 @@ class HighchartsHelper extends Helper
     /**
      * {@inheritDoc}
      */
-    public function initialize(array $config)
+    public function initialize(array $config): void
     {
         $this->Html->script($this->getConfig('scriptUrl'), ['block' => $this->getConfig('block')]);
     }
